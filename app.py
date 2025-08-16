@@ -82,4 +82,4 @@ if st.session_state.get("mostrado_feedback", False):
 # Botón que marca bandera para generar nuevo ejercicio
 if st.button("Nuevo ejercicio"):
     st.session_state.nuevo = True
-    st.experimental_rerun()
+    st.rerun()
